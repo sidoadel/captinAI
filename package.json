@@ -1,0 +1,26 @@
+{
+  "name": "captinai",
+  "version": "1.0.0",
+  "description": "A new Flutter project.",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "lodash": "^4.17.21",
+    "mssql": "^11.0.1",
+    "sql": "^0.78.0",
+    "tedious": "^18.2.4"
+  }
+}
