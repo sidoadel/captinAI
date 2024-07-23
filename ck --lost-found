@@ -1,0 +1,126 @@
+[33mcommit 021616ce89f4cac95031f951cd29c02c4047caf7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: sidoadel <sidoadel@gmail.com>
+Date:   Tue Jul 16 18:18:47 2024 +0300
+
+    first commit
+
+ README.md | Bin [31m591[m -> [32m615[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit f036c7fde4903d8f55942fa246e9a289f3d2f2fa[m
+Author: sidoadel <sidoadel@gmail.com>
+Date:   Tue Jul 16 18:17:17 2024 +0300
+
+    Your commit message
+
+ lib/main.dart                   |  4 [32m++[m[31m--[m
+ lib/screens/login_screen.dart   | 22 [32m++++++++++++[m[31m--------[m
+ lib/screens/sign_up_screen.dart |  3 [32m+++[m
+ lib/screens/splash_screen.dart  | 46 [32m+++++++++++++++++++++++++++++++++++++++++[m
+ 4 files changed, 64 insertions(+), 11 deletions(-)
+
+[33mcommit 7fce65fe6fe78732751624536e96d19b2f550a19[m
+Author: sidoadel <sidoadel@gmail.com>
+Date:   Tue Jul 16 18:05:44 2024 +0300
+
+    Your commit message
+
+ .vscode/extensions.json                          |   3 [32m+[m[31m-[m
+ .vscode/launch.json                              |  14 [32m+[m[31m--[m
+ USE CaptainAI; -- Switch to your databas.sql     |  22 [31m----[m
+ devtools_options.yaml                            |   1 [32m+[m
+ lib/api_service.dart                             |  66 [32m+++++++++[m[31m-[m
+ lib/main.dart                                    |  14 [32m++[m[31m-[m
+ lib/models/session.dart                          |   2 [32m+[m
+ lib/screens/ai_chatbot_screen.dart               |  79 [32m++++++++++++[m
+ lib/screens/head_coach_screen.dart               |  58 [32m++++++++[m[31m-[m
+ lib/screens/home_screen.dart                     | 112 [32m+++++[m[31m------------[m
+ lib/screens/login_screen.dart                    |  56 [32m+++++[m[31m----[m
+ lib/screens/manage_training_sessions_screen.dart | 147 [32m+++[m[31m--------------------[m
+ lib/screens/sign_up_screen.dart                  |  28 [32m++[m[31m---[m
+ lib/screens/splash_screen.dart                   |   0
+ pubspec.yaml                                     |   4 [32m+[m[31m-[m
+ server.js                                        |  73 [32m+++++++++[m[31m--[m
+ 16 files changed, 371 insertions(+), 308 deletions(-)
+
+[33mcommit 170667134051cc3fc990fc459ff096bea5f399ea[m
+Author: sidoadel <sidoadel@gmail.com>
+Date:   Tue Jul 16 17:56:53 2024 +0300
+
+    first commit
+
+ .gitignore                                         |    43 [32m+[m
+ .metadata                                          |    45 [32m+[m
+ .vscode/extensions.json                            |     5 [32m+[m
+ .vscode/launch.json                                |    40 [32m+[m
+ README.md                                          |   Bin [31m0[m -> [32m591[m bytes
+ USE CaptainAI; -- Switch to your databas.sql       |    22 [32m+[m
+ analysis_options.yaml                              |    32 [32m+[m
+ android/.gitignore                                 |    13 [32m+[m
+ android/app/build.gradle                           |    58 [32m+[m
+ android/app/src/debug/AndroidManifest.xml          |     7 [32m+[m
+ android/app/src/main/AndroidManifest.xml           |    45 [32m+[m
+ .../kotlin/com/example/captinai/MainActivity.kt    |     5 [32m+[m
+ .../main/res/drawable-v21/launch_background.xml    |    12 [32m+[m
+ .../src/main/res/drawable/launch_background.xml    |    12 [32m+[m
+ .../app/src/main/res/mipmap-hdpi/ic_launcher.png   |   Bin [31m0[m -> [32m544[m bytes
+ .../app/src/main/res/mipmap-mdpi/ic_launcher.png   |   Bin [31m0[m -> [32m442[m bytes
+ .../app/src/main/res/mipmap-xhdpi/ic_launcher.png  |   Bin [31m0[m -> [32m721[m bytes
+ .../app/src/main/res/mipmap-xxhdpi/ic_launcher.png |   Bin [31m0[m -> [32m1031[m bytes
+ .../src/main/res/mipmap-xxxhdpi/ic_launcher.png    |   Bin [31m0[m -> [32m1443[m bytes
+ android/app/src/main/res/values-night/styles.xml   |    18 [32m+[m
+ android/app/src/main/res/values/styles.xml         |    18 [32m+[m
+ android/app/src/profile/AndroidManifest.xml        |     7 [32m+[m
+ android/build.gradle                               |    18 [32m+[m
+ android/gradle.properties                          |     3 [32m+[m
+ android/gradle/wrapper/gradle-wrapper.properties   |     5 [32m+[m
+ android/gradlew.bat.txt                            |     2 [32m+[m
+ android/settings.gradle                            |    25 [32m+[m
+ devtools_options.yaml                              |     3 [32m+[m
+ ios/.gitignore                                     |    34 [32m+[m
+ ios/Flutter/AppFrameworkInfo.plist                 |    26 [32m+[m
+ ios/Flutter/Debug.xcconfig                         |     1 [32m+[m
+ ios/Flutter/Release.xcconfig                       |     1 [32m+[m
+ ios/Runner.xcodeproj/project.pbxproj               |   616 [32m+[m
+ .../project.xcworkspace/contents.xcworkspacedata   |     7 [32m+[m
+ .../xcshareddata/IDEWorkspaceChecks.plist          |     8 [32m+[m
+ .../xcshareddata/WorkspaceSettings.xcsettings      |     8 [32m+[m
+ .../xcshareddata/xcschemes/Runner.xcscheme         |    98 [32m+[m
+ ios/Runner.xcworkspace/contents.xcworkspacedata    |     7 [32m+[m
+ .../xcshareddata/IDEWorkspaceChecks.plist          |     8 [32m+[m
+ .../xcshareddata/WorkspaceSettings.xcsettings      |     8 [32m+[m
+ ios/Runner/AppDelegate.swift                       |    13 [32m+[m
+ .../AppIcon.appiconset/Contents.json               |   122 [32m+[m
+ .../AppIcon.appiconset/Icon-App-1024x1024@1x.png   |   Bin [31m0[m -> [32m10932[m bytes
+ .../AppIcon.appiconset/Icon-App-20x20@1x.png       |   Bin [31m0[m -> [32m295[m bytes
+ .../AppIcon.appiconset/Icon-App-20x20@2x.png       |   Bin [31m0[m -> [32m406[m bytes
+ .../AppIcon.appiconset/Icon-App-20x20@3x.png       |   Bin [31m0[m -> [32m450[m bytes
+ .../AppIcon.appiconset/Icon-App-29x29@1x.png       |   Bin [31m0[m -> [32m282[m bytes
+ .../AppIcon.appiconset/Icon-App-29x29@2x.png       |   Bin [31m0[m -> [32m462[m bytes
+ .../AppIcon.appiconset/Icon-App-29x29@3x.png       |   Bin [31m0[m -> [32m704[m bytes
+ .../AppIcon.appiconset/Icon-App-40x40@1x.png       |   Bin [31m0[m -> [32m406[m bytes
+ .../AppIcon.appiconset/Icon-App-40x40@2x.png       |   Bin [31m0[m -> [32m586[m bytes
+ .../AppIcon.appiconset/Icon-App-40x40@3x.png       |   Bin [31m0[m -> [32m862[m bytes
+ .../AppIcon.appiconset/Icon-App-60x60@2x.png       |   Bin [31m0[m -> [32m862[m bytes
+ .../AppIcon.appiconset/Icon-App-60x60@3x.png       |   Bin [31m0[m -> [32m1674[m bytes
+ .../AppIcon.appiconset/Icon-App-76x76@1x.png       |   Bin [31m0[m -> [32m762[m bytes
+ .../AppIcon.appiconset/Icon-App-76x76@2x.png       |   Bin [31m0[m -> [32m1226[m bytes
+ .../AppIcon.appiconset/Icon-App-83.5x83.5@2x.png   |   Bin [31m0[m -> [32m1418[m bytes
+ .../LaunchImage.imageset/Contents.json             |    23 [32m+[m
+ .../LaunchImage.imageset/LaunchImage.png           |   Bin [31m0[m -> [32m68[m bytes
+ .../LaunchImage.imageset/LaunchImage@2x.png        |   Bin [31m0[m -> [32m68[m bytes
+ .../LaunchImage.imageset/LaunchImage@3x.png        |   Bin [31m0[m -> [32m68[m bytes
+ .../Assets.xcassets/LaunchImage.imageset/README.md |     5 [32m+[m
+ ios/Runner/Base.lproj/LaunchScreen.storyboard      |    37 [32m+[m
+ ios/Runner/Base.lproj/Main.storyboard              |    26 [32m+[m
+ ios/Runner/Info.plist                              |    49 [32m+[m
+ ios/Runner/Runner-Bridging-Header.h                |     1 [32m+[m
+ ios/RunnerTests/RunnerTests.swift                  |    12 [32m+[m
+ lib/api_service.dart                               |   140 [32m+[m
+ .../fonts/NotoKufiArabic-VariableFont_wght.ttf     |   Bin [31m0[m -> [32m433800[m bytes
+ lib/assets/fonts/OFL.txt                           |    93 [32m+[m
+ lib/assets/fonts/README.txt                        |    71 [32m+[m
+ lib/assets/fonts/static/NotoKufiArabic-Black.ttf   |   Bin [31m0[m -> [32m180836[m bytes
+ lib/assets/fonts/static/NotoKufiArabic-Bold.ttf    |   Bin [31m0[m -> [32m180576[m bytes
+ .../fonts/static/NotoKufiArabic-ExtraBold.ttf      |   Bin [31m0[m -> [32m180932[m bytes
+ .../fonts/stat
