@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "ms-mssql.mssql"
+        "ms-mssql.mssql",
+        "google.arb-editor",
+        "abehrad.genymotion"
     ]
 }
